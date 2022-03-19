@@ -2,6 +2,11 @@ yum install git -y
 mkdir dev
 vi test
 git init
-git add file name
 git add test
+git commit test -m"first commit"
+git commit -a -m"First commit"
+git log
+git config --global user.name"Archana"
+git config --global user.email"leoarchu.2@gmail.com"
+git log -oneline
 
